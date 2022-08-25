@@ -1,35 +1,300 @@
 <!DOCTYPE html>
-<html lang="en">        
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Resume</title>
-        
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-    </head>
-    <body>
-        <main class="main-content" contenteditable="true">
-            <section class="left-section">
-                 <div class="left-content">
-                    <!-- Write code for the left section here -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Html Project</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
+              
+              <div style="padding-left:16px">
+                <h2>Best Recepies</h2>
+                <p>By Asim Zaidi</p>
+              </div>
+        </nav>
+       
+    </header>
+    
+    <div class="cantainer">
+        <div class="message">
+            <h2 class="word">our veg Recipes</h2>
+        </div>
+      
+        <div class="card">
+            <img src="./images/Matar-Paneer.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Mater Paneer</h1>
+           
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Read More</button></p>
+          </div>
+          <div class="card">
+            <img src="./images/Shahi-paneer.webp" alt="Denim Jeans" style="width:100%">
+            <h1>Shahi Paneer</h1>
+           
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Read More</button></p>
+          </div>
+          <div class="card">
+            <img src="./images/palag-paneer.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Palag Paneer</h1>
+            
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Read More</button></p>
+          </div>
+          <div class="card">
+            <img src="./images/Aloo-Gobi.webp" alt="Denim Jeans" style="width:100%">
+            <h1>Aloo Gobi</h1>
+          
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Read More</button></p>
+          </div>
+          <p class="recepie-type">our non-veg Recipes</p>
+          <div class="card">
+            <img src="./images/chiken-biryani.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Chiken Biryani</h1>
+           
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Read More</button></p>
+          </div>
+          <div class="card">
+            <img src="./images/Tandoori.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Chiken Tandoori</h1>
+            
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Read More</button></p>
+          </div>
+          <div class="card">
+            <img src="./images/fish-fry.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Tailored Jeans</h1>
+          
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Read More</button></p>
+          </div>
+          <div class="card">
+            <img src="./images/kabab.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Seekh Kabab</h1>
+            
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Read More</button></p>
+          </div> 
+    </div>
+    <footer>
+        <footer id="dk-footer" class="dk-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="dk-footer-box-info">
+                            <a href="index.html" class="footer-logo">
+                                <!-- <img src="images/footer_logo.png" alt="footer_logo" class="img-fluid"> -->
+                            </a>
+                            <p class="footer-info-text">
+                               Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
+                            </p>
+                            <div class="footer-social-link">
+                                <h3>Follow us</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Social link -->
+                        </div>
+                        <!-- End Footer info -->
+                        <div class="footer-awarad">
+                            <img src="images/icon/best.png" alt="">
+                            <p>Best Recipes Award 2019</p>
+                        </div>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-us">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-map-o" aria-hidden="true"></i>
+                                    </div>
+                                    <!-- End contact Icon -->
+                                    <div class="contact-info">
+                                        <h3>Jaipur India</h3>
+                                        <p>5353 Road Avenue</p>
+                                    </div>
+                                    <!-- End Contact Info -->
+                                </div>
+                                <!-- End Contact Us -->
+                            </div>
+                            <!-- End Col -->
+                            <div class="col-md-6">
+                                <div class="contact-us contact-us-last">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                    </div>
+                                    <!-- End contact Icon -->
+                                    <div class="contact-info">
+                                        <h3>95 711 9 5353</h3>
+                                        <p>Give us a call</p>
+                                    </div>
+                                    <!-- End Contact Info -->
+                                </div>
+                                <!-- End Contact Us -->
+                            </div>
+                            <!-- End Col -->
+                        </div>
+                        <!-- End Contact Row -->
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="footer-widget footer-left-widget">
+                                    <div class="section-heading">
+                                        <h3>Useful Links</h3>
+                                        <span class="animate-border border-black"></span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="#">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Projects</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Our Team</a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Contact us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Testimonials</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Faq</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End Footer Widget -->
+                            </div>
+                            <!-- End col -->
+                            <div class="col-md-12 col-lg-6">
+                                <div class="footer-widget">
+                                    <div class="section-heading">
+                                        <h3>Subscribe</h3>
+                                        <span class="animate-border border-black"></span>
+                                    </div>
+                                    <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                                    Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
+                                    <form action="#">
+                                        <div class="form-row">
+                                            <div class="col dk-footer-form">
+                                                <input type="email" class="form-control" placeholder="Email Address">
+                                                <button type="submit">
+                                                    <i class="fa fa-send"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <!-- End form -->
+                                </div>
+                                <!-- End footer widget -->
+                            </div>
+                            <!-- End Col -->
+                        </div>
+                        <!-- End Row -->
+                    </div>
+                    <!-- End Col -->
                 </div>
+                <!-- End Widget Row -->
             </div>
-            </section>
-
-            <section class="right-section"> 
-                <div class="right-main-content">
-                    
-                    <!-- Write code for the right section here -->
+            <!-- End Contact Container -->
+    
+    
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>Copyright © 2019, All Right Reserved</span>
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="copyright-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End col -->
+                    </div>
+                    <!-- End Row -->
                 </div>
-            </section>
-        </main>
-    </body>
-</html> 
+                <!-- End Copyright Container -->
+            </div>
+            <!-- End Copyright -->
+            <!-- Back to top -->
+            <div id="back-to-top" class="back-to-top">
+                <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                    <i class="fa fa-angle-up"></i>
+                </button>
+            </div>
+            <!-- End Back to top -->
+    </footer>
+    
+
+    </footer>
+
+</body>
+</html>
